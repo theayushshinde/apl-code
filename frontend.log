@@ -1,0 +1,302 @@
+npm warn cli npm v11.4.2 does not support Node.js v20.16.0. This version of npm supports the following node versions: `^20.17.0 || >=22.9.0`. You can find the latest version at https://nodejs.org/.
+
+> frontend@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.116.92.129:3000
+- Environments: .env.local
+✓ Ready in 554ms
+
+The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET / 200 in 659ms (next.js: 271ms, application-code: 388ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" className="geist_a715...">
+                          <body
+                            className="min-h-full flex flex-col"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6InBwaGdkYmdsZGxtaWNmZGtob25kbGFma2lv..."
+-                           __processed_53eb415f-788a-4577-8efa-6a9eaa5b865a__="true"
+-                           data-new-gr-c-s-check-loaded="14.1285.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+ 
+ GET /api/sentiment 200 in 4.2s (next.js: 239ms, application-code: 4.0s)
+ GET /api/sentiment 200 in 2.7s (next.js: 4ms, application-code: 2.7s)
+ GET /api/sentiment 200 in 3.2s (next.js: 4ms, application-code: 3.2s)
+ GET /api/sentiment 200 in 2.5s (next.js: 5ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.4s (next.js: 4ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.5s (next.js: 2ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.8s (next.js: 6ms, application-code: 2.8s)
+ GET /api/sentiment 200 in 2.6s (next.js: 6ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.4s (next.js: 5ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.6s (next.js: 5ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.5s (next.js: 5ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 3.0s (next.js: 4ms, application-code: 3.0s)
+ GET /api/sentiment 200 in 2.6s (next.js: 4ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.7s (next.js: 2ms, application-code: 2.7s)
+ GET /api/sentiment 200 in 3.0s (next.js: 4ms, application-code: 3.0s)
+ GET /api/sentiment 200 in 2.6s (next.js: 2ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.5s (next.js: 6ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.6s (next.js: 4ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.6s (next.js: 5ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.4s (next.js: 8ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.4s (next.js: 3ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 3.0s (next.js: 3ms, application-code: 3.0s)
+ GET /api/sentiment 200 in 2.7s (next.js: 1929µs, application-code: 2.7s)
+ GET /api/sentiment 200 in 2.9s (next.js: 4ms, application-code: 2.9s)
+The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET / 200 in 82ms (next.js: 6ms, application-code: 76ms)
+ GET /api/sentiment 200 in 1549ms (next.js: 4ms, application-code: 1545ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" className="geist_a715...">
+                          <body
+                            className="min-h-full flex flex-col"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6InBwaGdkYmdsZGxtaWNmZGtob25kbGFma2lv..."
+-                           __processed_51a80e6f-6e09-4a2a-864f-52a90a66c6ae__="true"
+                          >
+                  ...
+ 
+ GET /api/sentiment 200 in 2.6s (next.js: 9ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.6s (next.js: 3ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.8s (next.js: 4ms, application-code: 2.8s)
+ GET /api/sentiment 200 in 2.6s (next.js: 4ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.4s (next.js: 4ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.6s (next.js: 3ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.5s (next.js: 4ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 3.0s (next.js: 5ms, application-code: 3.0s)
+ GET /api/sentiment 200 in 2.7s (next.js: 1789µs, application-code: 2.7s)
+ GET /api/sentiment 200 in 2.4s (next.js: 4ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 3.0s (next.js: 3ms, application-code: 3.0s)
+ GET /api/sentiment 200 in 3.3s (next.js: 1756µs, application-code: 3.3s)
+ GET /api/sentiment 200 in 2.2s (next.js: 3ms, application-code: 2.2s)
+ GET /api/sentiment 200 in 2.5s (next.js: 3ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.4s (next.js: 3ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.6s (next.js: 3ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.6s (next.js: 3ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 3.0s (next.js: 2ms, application-code: 3.0s)
+ GET /api/sentiment 200 in 2.2s (next.js: 4ms, application-code: 2.2s)
+ GET /api/sentiment 200 in 2.4s (next.js: 6ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.3s (next.js: 3ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.3s (next.js: 5ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.5s (next.js: 5ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.4s (next.js: 6ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.6s (next.js: 4ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.5s (next.js: 3ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.5s (next.js: 4ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.4s (next.js: 1965µs, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.3s (next.js: 3ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.5s (next.js: 3ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.3s (next.js: 4ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.6s (next.js: 4ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.3s (next.js: 3ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.3s (next.js: 4ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.4s (next.js: 4ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.6s (next.js: 3ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.7s (next.js: 4ms, application-code: 2.7s)
+ GET /api/sentiment 200 in 2.3s (next.js: 3ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.1s (next.js: 4ms, application-code: 2.1s)
+ GET /api/sentiment 200 in 2.3s (next.js: 2ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.4s (next.js: 4ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.3s (next.js: 5ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.6s (next.js: 3ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.6s (next.js: 1953µs, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.1s (next.js: 3ms, application-code: 2.1s)
+ GET /api/sentiment 200 in 2.5s (next.js: 4ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.5s (next.js: 4ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.2s (next.js: 3ms, application-code: 2.2s)
+ GET /api/sentiment 200 in 2.6s (next.js: 2ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.3s (next.js: 5ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.2s (next.js: 3ms, application-code: 2.2s)
+ GET /api/sentiment 200 in 2.4s (next.js: 2ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.3s (next.js: 3ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.3s (next.js: 4ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.5s (next.js: 4ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.9s (next.js: 2ms, application-code: 2.9s)
+ GET /api/sentiment 200 in 2.1s (next.js: 6ms, application-code: 2.1s)
+ GET /api/sentiment 200 in 2.5s (next.js: 4ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.3s (next.js: 3ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.6s (next.js: 4ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.4s (next.js: 3ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.2s (next.js: 3ms, application-code: 2.2s)
+ GET /api/sentiment 200 in 2.6s (next.js: 4ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.3s (next.js: 3ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.3s (next.js: 3ms, application-code: 2.2s)
+ GET /api/sentiment 200 in 2.3s (next.js: 3ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 3.0s (next.js: 3ms, application-code: 3.0s)
+ GET /api/sentiment 200 in 2.7s (next.js: 2ms, application-code: 2.7s)
+ GET /api/sentiment 200 in 2.4s (next.js: 5ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.4s (next.js: 3ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.8s (next.js: 3ms, application-code: 2.8s)
+ GET /api/sentiment 200 in 2.6s (next.js: 3ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.9s (next.js: 4ms, application-code: 2.9s)
+ GET /api/sentiment 200 in 2.2s (next.js: 4ms, application-code: 2.2s)
+ GET /api/sentiment 200 in 2.7s (next.js: 3ms, application-code: 2.7s)
+ GET /api/sentiment 200 in 2.5s (next.js: 3ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.3s (next.js: 2ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.6s (next.js: 3ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.7s (next.js: 3ms, application-code: 2.7s)
+ GET /api/sentiment 200 in 2.4s (next.js: 2ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.2s (next.js: 1782µs, application-code: 2.2s)
+ GET /api/sentiment 200 in 2.3s (next.js: 3ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.2s (next.js: 3ms, application-code: 2.2s)
+ GET /api/sentiment 200 in 2.5s (next.js: 4ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.5s (next.js: 3ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.5s (next.js: 3ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.4s (next.js: 5ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.3s (next.js: 2ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.4s (next.js: 6ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.3s (next.js: 3ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.3s (next.js: 3ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.6s (next.js: 3ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.6s (next.js: 5ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.5s (next.js: 3ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.4s (next.js: 3ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.3s (next.js: 4ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.6s (next.js: 3ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.3s (next.js: 1898µs, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.7s (next.js: 4ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.7s (next.js: 2ms, application-code: 2.7s)
+ GET /api/sentiment 200 in 2.4s (next.js: 4ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.3s (next.js: 3ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.2s (next.js: 6ms, application-code: 2.2s)
+ GET /api/sentiment 200 in 2.8s (next.js: 3ms, application-code: 2.8s)
+ GET /api/sentiment 200 in 2.4s (next.js: 3ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.5s (next.js: 4ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.0s (next.js: 3ms, application-code: 2.0s)
+ GET /api/sentiment 200 in 2.1s (next.js: 5ms, application-code: 2.1s)
+ GET /api/sentiment 200 in 2.2s (next.js: 3ms, application-code: 2.2s)
+ GET /api/sentiment 200 in 2.5s (next.js: 3ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.4s (next.js: 2ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.2s (next.js: 1791µs, application-code: 2.2s)
+ GET /api/sentiment 200 in 2.4s (next.js: 3ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.3s (next.js: 4ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.4s (next.js: 5ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.3s (next.js: 2ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.5s (next.js: 1839µs, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.1s (next.js: 3ms, application-code: 2.1s)
+ GET /api/sentiment 200 in 2.1s (next.js: 6ms, application-code: 2.1s)
+ GET /api/sentiment 200 in 2.2s (next.js: 2ms, application-code: 2.2s)
+ GET /api/sentiment 200 in 2.2s (next.js: 4ms, application-code: 2.2s)
+ GET /api/sentiment 200 in 2.3s (next.js: 3ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.3s (next.js: 3ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.7s (next.js: 3ms, application-code: 2.7s)
+ GET /api/sentiment 200 in 2.5s (next.js: 3ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.6s (next.js: 5ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.6s (next.js: 4ms, application-code: 2.6s)
+ GET /api/sentiment 200 in 2.5s (next.js: 3ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.4s (next.js: 2ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.4s (next.js: 5ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.2s (next.js: 3ms, application-code: 2.2s)
+ GET /api/sentiment 200 in 2.8s (next.js: 2ms, application-code: 2.8s)
+ GET /api/sentiment 200 in 2.5s (next.js: 3ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.3s (next.js: 1923µs, application-code: 2.3s)
+ GET /api/sentiment 200 in 2.5s (next.js: 4ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.5s (next.js: 3ms, application-code: 2.5s)
+ GET /api/sentiment 200 in 2.4s (next.js: 2ms, application-code: 2.4s)
+ GET /api/sentiment 200 in 2.3s (next.js: 3ms, application-code: 2.3s)
+ GET /api/sentiment 200 in 1494ms (next.js: 4ms, application-code: 1490ms)
+[?25h

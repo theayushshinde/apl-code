@@ -1,0 +1,7 @@
+google-cloud-pubsub
+google-cloud-bigquery
+google-genai
+pytchat
+python-dotenv
+fastapi
+uvicorn

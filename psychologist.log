@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/ayush/Documents/ayush-code/apl-code/psychologist/main.py", line 6, in <module>
+    from gemini_analyzer import analyze_emotion
+  File "/home/ayush/Documents/ayush-code/apl-code/psychologist/gemini_analyzer.py", line 6, in <module>
+    client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayush/.local/lib/python3.12/site-packages/google/genai/client.py", line 271, in __init__
+    self._api_client = self._get_api_client(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ayush/.local/lib/python3.12/site-packages/google/genai/client.py", line 318, in _get_api_client
+    return BaseApiClient(
+           ^^^^^^^^^^^^^^
+  File "/home/ayush/.local/lib/python3.12/site-packages/google/genai/_api_client.py", line 683, in __init__
+    raise ValueError(
+ValueError: Missing key inputs argument! To use the Google AI API, provide (`api_key`) arguments. To use the Google Cloud API, provide (`vertexai`, `project` & `location`) arguments.
