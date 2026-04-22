@@ -1,0 +1,11 @@
+.env
+.env.*
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+__pycache__/
+*.log
+
+
+backend/.env
